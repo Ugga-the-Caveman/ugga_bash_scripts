@@ -1,6 +1,6 @@
 #!/bin/bash
 
-version="2021.05.25"
+version="2021.08.06"
 scriptName=$(basename $BASH_SOURCE)
 
 
