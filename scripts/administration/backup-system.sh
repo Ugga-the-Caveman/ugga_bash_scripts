@@ -262,7 +262,7 @@ then
 	
 	startingtime=`date +%s`
 	
-	rsync -aAHXv --progress --delete / --exclude={"/lost+found","/dev/*","/mnt/*","/proc/*","/run/*","/sys/*","/tmp/*"} "$thisDir"
+	rsync -aAHXv --progress --delete / --exclude={"/lost+found","/dev/*","/mnt/*","/media/*","/proc/*","/run/*","/sys/*","/tmp/*"} "$thisDir"
 	
 	endingtime=`date +%s`
 	runtime=$((endingtime-startingtime))
